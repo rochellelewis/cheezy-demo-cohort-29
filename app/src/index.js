@@ -11,6 +11,7 @@ import {Button} from "react-bootstrap";
 const App = () => (
 	<section className="py-5">
 		<Container fluid>
+			<h1 className="text-center">Top Restaurants</h1>
 			<Row>
 				<Col xs={6} md={4} lg={2}>
 					<Card className="h-100">
@@ -75,9 +76,11 @@ const App = () => (
 
 				{/* vote now card */}
 				<Col xs={6} md={4} lg={2}>
-					<Card className="h-100">
-						<Card.Body>
-							<Card.Title>Rank Now!</Card.Title>
+					<Card className="h-100 bg-warning">
+						<Card.Body className="justify-content-center align-items-center d-flex flex-column">
+							<Card.Title>
+								<h3>Rank Now!</h3>
+							</Card.Title>
 							<Card.Text>Did we miss the best restaurant in town? Did you want to add a new restaurant?</Card.Text>
 							<Button variant="light">Submit a Restaurant</Button>
 						</Card.Body>
