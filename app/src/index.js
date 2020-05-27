@@ -79,7 +79,7 @@ const App = () => (
 					<Col xs={6} md={4} lg={2}>
 						<Card className="h-100 bg-warning">
 							<Card.Body className="justify-content-center align-items-center d-flex flex-column">
-								<Card.Title>Rank Now!</Card.Title>
+								<h3>Rank Now!</h3>
 								<Card.Text>Did we miss the best restaurant in town? Did you want to add a new restaurant?</Card.Text>
 								<Button variant="light">Submit a Restaurant</Button>
 							</Card.Body>
